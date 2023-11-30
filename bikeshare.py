@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
+
 
 # Reviewer note: please make sure that you adapt the cities path in the below dictionary
 # so that the code can grab it from correct path... otherwise place the CSV's inside a subfolder 'cities'...
