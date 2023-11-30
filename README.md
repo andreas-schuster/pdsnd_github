@@ -4,7 +4,7 @@ _This project was created in November 2023 (2023-11-09)_
 
 ## Information / Description
 This project was part of the Udacity Nanodegree "Programming for Data Science with Python".
-We had to make use of Python to explore data related to bike share systems for three major cities in the United States:
+One Task was to make use of Python to explore data related to bike share systems for three major cities in the United States:
 
 - Chicago
 - New York City and 
