@@ -1,6 +1,4 @@
-
-### Date created
-This project was created in November 2023 (2023-11-09)
+_This project was created in November 2023 (2023-11-09)_
 
 # Bikeshare Database 
 
@@ -16,11 +14,11 @@ Target was writing code to import some sample data and answer interesting questi
 Focus was also on writing a script that takes in raw inputs to create an interactive experience in the terminal to present these statistics.
 
 ## Installation
-The main code is provided in the `bikeshare.py` file.
+The main code is provided in the `bikeshare.py`-file.
 The data (CSV-Files) from the available cities (mentioned in the Information section) is not part of the online Repository (github).
-CSV-Files need to be placed in a subfolder called "cities", relative to the `*.py` file OR code needs to be adapted:
+CSV-Files need to be placed in a subfolder called "cities", relative to the `*.py`-file OR code needs to be adapted:
 
-Please ensure that path is correctly maintained in the very beginning of the `bikeshare.py` file so that it can grab the files from there.
+Please ensure that path is correctly maintained in the very beginning of the `bikeshare.py`-file so that it can grab the files from there.
 
 ```
 CITY_DATA = {'chicago': './cities/chicago.csv',
@@ -29,15 +27,16 @@ CITY_DATA = {'chicago': './cities/chicago.csv',
 ```
 
 Reason for the decision was the following:
-I wanted to have my py-file and my data files in a separated "environment" so that coding area looks more clean and is separated from data area.
+I wanted to have code-file and the data-files separated from each other so that coding area looks more clean and is separated from data area.
+
+Please ensure that pandas is installed in your environment -> if it's not yet installed, install it via terminal (there are many instructions out there :-))
 
 ## Usage
 Program can be run from the terminal by typing `python .\bikeshare.py`
- 
 
 ## Files used
-Include the files used
+- bikeshare.py (the main code-file)
+- README.md (this documentation)
 
-## Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+## Comments
+...are happily welcome - feel free to leave feedback in the appropriate area - thanks
