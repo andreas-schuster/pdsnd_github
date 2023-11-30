@@ -27,7 +27,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     cities = list(CITY_DATA.keys())
     while True:
-        city = str(input('Please type any city you are interested in: ')).lower()
+        city = str(input('Please type any city you are interested in: ')).strip().lower()
         if city not in cities:
             print(f'This wasn\'t any valid city selection. \nPlease select one out of the following list: \n'
                   f'   {cities}')
